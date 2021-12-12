@@ -16,6 +16,10 @@ Including another URLconf
 
 from django.urls import path
 
+from calculator.views import omlet, pasta, buter
+
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('omlet/', omlet),
+    path('pasta/', pasta),
+    path('buter/', buter),
 ]
